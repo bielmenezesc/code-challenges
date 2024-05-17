@@ -24,10 +24,11 @@ Here are some examples of how to use sets, lists, and dictionaries in Python:
 
 ```python
 # Create a set
-my_set = {1, 2, 3, 4, 5}
+my_set = set()
 
 # Add an element to the set
-my_set.add(6)
+my_set.add(5)
+my_set.add(4)
 
 # Remove an element from the set
 my_set.remove(4)
