@@ -1,26 +1,6 @@
-In Python, a set is an unordered collection of unique elements, a list is an ordered collection of elements that can be duplicated, and a dictionary (also known as a hash map) is an unordered collection of key-value pairs.
+# Sets
 
-Here are some key differences between sets, lists, and dictionaries:
-
-### Ordering
-
-Lists are ordered collections, which means that the elements have a specific order and can be accessed by their index. Sets and dictionaries, on the other hand, are unordered collections, which means that the elements do not have a specific order and cannot be accessed by their index.
-
-### Duplicates
-
-Lists can contain duplicates, while sets cannot. If you try to add a duplicate element to a set, it will simply be ignored. Dictionaries also cannot contain duplicate keys, since each key in a dictionary must be unique.
-
-### Key-Value Pairs
-
-Dictionaries are collections of key-value pairs, where each key is associated with a specific value. Sets and lists, on the other hand, do not have this key-value structure.
-
-### Performance
-
-Sets and dictionaries are generally faster than lists for operations that involve searching for or adding elements. This is because sets and dictionaries are implemented as hash tables, which allow for constant-time lookups and insertions. Lists, on the other hand, are implemented as arrays, which require linear time to search for an element or insert a new element in the middle of the list.
-
-Here are some examples of how to use sets, lists, and dictionaries in Python:
-
-### Sets
+É uma lista não ordenada que só vai conter **elementos únicos**.
 
 ```python
 # Create a set
@@ -42,7 +22,10 @@ for element in my_set:
     print(element)
 ```
 
-### Lists
+# Listas
+
+Uma lista normal, sem segredo.
+
 ```python
 # Create a list
 my_list = [1, 2, 3, 4, 5]
@@ -62,7 +45,10 @@ for element in my_list:
     print(element)
 ```
 
-### Dictionaries
+# Dicionário/HashMap
+
+Is an unordered collection of key-value pairs
+
 ```python
 # Create a dictionary
 my_dict = {"name": "Alice", "age": 30, "city": "New York"}
